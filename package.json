@@ -1,0 +1,12 @@
+{
+  "name": "auth-comment-service-root",
+  "version": "1.0.0",
+  "description": "Authentication and Comment Permission Service - Root",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "cd backend && npm test"
+  },
+  "author": "",
+  "license": "ISC"
+} 
